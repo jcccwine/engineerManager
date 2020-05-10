@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+.tabnav{
+	height: 40px;
+  line-height: 40px;
+  margin: 16px auto 0 auto;
+}
+
+.fou{
+	position:relative;
+}
+
+.tabnav span{
+	cursor: pointer;
+  margin-right: 36px;
+  display: block;
+  float: left;
+  font-size: 15px;
+}
+
+.tabnav .fou label{
+	width: 30px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -15px;
+  display: block;
+  background: linear-gradient(to right,#ff9c00,#fdb800);
+}
